@@ -1,0 +1,23 @@
+{
+  "name": "comp2068-javascript",
+  "version": "1.0.0",
+  "description": "issa blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giselle-Schwartz/COMP2068-JavaScript.git"
+  },
+  "author": "Giselle Schwartz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giselle-Schwartz/COMP2068-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Giselle-Schwartz/COMP2068-JavaScript#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
