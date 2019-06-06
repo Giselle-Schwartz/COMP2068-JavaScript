@@ -2,15 +2,15 @@ const mongoose = require(`mongoose`);
 
 //Our schema
 const BlogSchema = new mongoose.Schema({
-    title = {
+    title: {
         type: String,
         required: true
     },
-    content = {
+    content: {
         type: String,
         required: false
     },
-    status = {
+    status: {
         type: String,
         enum: [`DRAFT`, 'PUBLISHED'],
         default: `DRAFT`
