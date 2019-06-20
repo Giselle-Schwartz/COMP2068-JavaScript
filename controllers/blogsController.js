@@ -1,5 +1,5 @@
 const Blog = require(`../models/blog`);
-
+    
 exports.index = (req, res) => {
     //access the model, find is like saying where in sql. if you do not give find params it is like a SELECT *
     Blog.find()
